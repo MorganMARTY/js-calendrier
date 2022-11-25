@@ -31,4 +31,4 @@ let daysOfMonth = eachDayOfInterval({
 });
 console.log('month', daysOfMonth);
 
-$('#app').html('<button class="btn btn-danger">COUCOUyièyurtyryu</button>');
+$('#app').html('<button class="btn btn-danger">COUCOU</button>');
