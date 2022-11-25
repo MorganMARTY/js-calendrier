@@ -7,25 +7,28 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 import * as dateFns from 'date-fns';
 
+console.log(dateFns.format(dateFns.startOfToday(), 'MMMM yyyy'));
 
-console.log(dateFns.format(dateFns.startOfToday(),'MMMM yyyy'));
-
-/*import { startOfToday,startOfMonth,endOfMonth,eachDayOfInterval,format } from 'date-fns';
-
-
+import {
+  startOfToday,
+  startOfMonth,
+  endOfMonth,
+  eachDayOfInterval,
+  format,
+} from 'date-fns';
 
 let today = startOfToday();
-console.log(format(today,'MMMM yyyy'));
+console.log(format(today, 'MMMM yyyy'));
 
 let startMonth = startOfMonth(today);
-console.log("start",startMonth);
+console.log('start', startMonth);
 let endMonth = endOfMonth(today);
-console.log("end",endMonth);
+console.log('end', endMonth);
 
 let daysOfMonth = eachDayOfInterval({
-  start:startMonth,
-  end:endMonth
+  start: startMonth,
+  end: endMonth,
 });
-console.log("month",daysOfMonth);
+console.log('month', daysOfMonth);
 
-$('#app').html('<button class="btn btn-danger">COUCOU</button>')*/
+$('#app').html('<button class="btn btn-danger">COUCOU</button>');
